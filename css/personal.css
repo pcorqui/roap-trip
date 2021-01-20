@@ -1,0 +1,44 @@
+body{
+    font-family: "Comic Sans", "Lucida Console", "Monaco";
+}
+
+.navbar.navbar-1 .navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+}
+
+.carousel-social{
+    color: black;
+    position: relative;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.carousel-title{
+    color: white;
+    position: absolute;      
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 450%;
+    text-align: center;
+    width: 100%;
+}
+
+.sub-title{
+    font-size: 0.5em;
+}
+
+.carousel-item{
+    z-index: -1;
+}
+
+@media screen and (max-width:600px){
+    .carousel-title{
+        color: white;
+        position: absolute;      
+        margin-top: 15px;
+        margin-left: 10px;
+        font-size: 250%;
+        text-align: left;
+    }
+    
+}
